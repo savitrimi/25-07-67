@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    background-color: rgb(230, 251, 255);
+    height: 60px;
+}
+.container{
+    height: 70vw;
+    margin: 0 auto;
+}
+.nav-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 60px;
+}
+.nav-con a{
+    color: rgb(65, 60, 133);
+    text-decoration: none;
+}
+.menu{
+    display: flex;
+}
+.menu li{
+    list-style: none;
+    margin-left: 0.5rem;
+}
+.logo a{
+    font-size: 1.5rem;
+    font-weight: bolder;
+}
+.menu input{
+    margin-right: 0 1rem;
+    padding: 10px;
+    padding-right: 25px;
+    background-color: rgb(253, 237, 250);
+    border: 0px;
+    border-radius: 25px;
+    color: rgb(65, 60, 133);
+    height: 25px;
+}
+.menu button{
+    padding: 0 1rem;
+    background-color:rgb(253, 237, 250) ;
+    border: 0px;
+    border-radius: 25px;
+    color: rgb(65, 60, 133);
+    height: 25px;
+}
